@@ -1,0 +1,35 @@
+{
+  "name": "gochan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx tsx src/index.ts",
+    "test": "jest",
+    "prepublish": "npm run build",
+    "example": "npx tsx example/example.ts",
+    "benchmark": "npx tsx benchmark/run.ts"
+  },
+  "dependencies": {
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.7.0",
+    "@types/uuid": "^9.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "concurrency",
+    "goroutine",
+    "channels",
+    "typescript",
+    "node.js"
+  ],
+  "author": "Edward Wong",
+  "license": "MIT"
+}
