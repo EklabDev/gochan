@@ -1,6 +1,11 @@
 # GoChan
 
-A TypeScript library that brings Go-like concurrency patterns to JavaScript/TypeScript using worker threads and shared channels.
+A TypeScript library that brings Go-like concurrency patterns to Node.js, featuring goroutines, channels, and worker pools.
+
+## Requirements
+
+- Node.js >= 22.7.0
+- TypeScript >= 5.0.0
 
 ## Features
 
@@ -13,9 +18,13 @@ A TypeScript library that brings Go-like concurrency patterns to JavaScript/Type
 ## Installation
 
 ```bash
-npm install gochan
-# or
-yarn add gochan
+npm install @eklabdev/gochan
+```
+
+or using yarn:
+
+```bash
+yarn add @eklabdev/gochan
 ```
 
 ## Quick Start

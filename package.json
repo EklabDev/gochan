@@ -1,9 +1,12 @@
 {
-  "name": "gochan",
+  "name": "@eklabdev/gochan",
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=22.7.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "npx tsx src/index.ts",
@@ -31,5 +34,13 @@
     "node.js"
   ],
   "author": "Edward Wong",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EklabDev/gochan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EklabDev/gochan/issues"
+  },
+  "homepage": "https://github.com/EklabDev/gochan#readme"
 }
